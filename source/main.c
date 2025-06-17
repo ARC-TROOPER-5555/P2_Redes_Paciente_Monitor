@@ -192,7 +192,7 @@ void vThread_pasiente(void *pvParameters)
             tcpip_callback(publish_message, NULL);
         }
 
-        vTaskDelay(pdMS_TO_TICKS(20000)); // 1 segundo entre mediciones
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 
@@ -242,6 +242,8 @@ static void app_thread(void *arg)
             i++;
         }
         sys_msleep(1000U);
+        vTaskDelay(pdMS_TO_TICKS(15000));
+
     }
 
     // MQTT finalizado → Iniciar ADC task
