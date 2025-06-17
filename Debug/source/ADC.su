@@ -1,0 +1,7 @@
+D:\REDES\Practicas\P2_Hernandez_Alfaro_potes\frdmk66f_lwip_mqtt_freertos\drivers/fsl_adc16.h:367:20:ADC16_EnableHardwareTrigger	16	static
+D:\REDES\Practicas\P2_Hernandez_Alfaro_potes\frdmk66f_lwip_mqtt_freertos\drivers/fsl_adc16.h:491:24:ADC16_GetChannelConversionValue	16	static
+../source/ADC.c:15:6:ADC_init_P	32	static
+../source/ADC.c:29:6:ADC_init_T	32	static
+../source/ADC.c:44:10:ADC_to_Pulsos	16	static
+../source/ADC.c:49:10:ADC_to_Temp	16	static
+../source/ADC.c:55:14:ADC_Pc_Temp	48	static
